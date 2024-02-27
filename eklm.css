@@ -1,11 +1,11 @@
 /* Add this CSS to a file named palakkad.css */
 
 .eklm-background {
-    background-image: url('./images/marine_drive_new.jpg'); /* Adjust the image path as needed */
+    background-image: url('./images/marine\ drive\ new.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center calc(100% - 50px); /* Adjusted background position */
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Ensures the background remains fixed */
+    background-attachment: scroll;
     text-align: center;
     color: white;
     padding: 100px;
