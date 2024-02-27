@@ -3,14 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
 a, p {
     text-decoration: none;
     font-size: 15px;
     color: azure;
 }
 
-nav {
+    nav {
     width: 100%;
     height: 60px; /* Adjusted height */
     line-height: 60px; /* Adjusted line height */
@@ -39,42 +38,35 @@ nav li {
     padding: 10px;
 }
 
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
-    margin: 20px auto; /* Center the container horizontally */
-    padding-top: 50px; /* Adjusted padding */
-    max-width: 1200px; /* Set a maximum width for the container */
-    min-height: 720px; /* Adjusted height for 14 cards (7 top, 7 bottom) */
-}
-
-@media (max-width: 768px) {
-    .card-container {
-        height: auto; /* Adjust height for smaller screens */
-    }
+    align-items: flex-start; 
+    margin: 20px;
+    padding-top: 100px; 
 }
 
 .card {
-    width: calc(100% / 7 - 20px); /* Adjusted width for 7 cards per row */
-    height: 150px; /* Adjusted height */
-    margin: 5px; /* Adjusted margin */
+    width: 150px; 
+    height: 200px; 
+    margin: 10px;
     background-size: cover;
     background-position: center;
-    border-radius: 8px; /* Adjusted border radius */
+    border-radius: 10px;
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 14px; /* Adjusted font size */
-    padding: 8px; /* Adjusted padding */
+    font-size: 16px; 
+    padding: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .card h2 {
-    font-size: 14px;
+    font-size: 14px; 
     margin-top: 0;
 }
 
@@ -84,5 +76,5 @@ nav li {
 }
 
 #h21, #h22, #h23, #h25, #h26, #h29, #h211, #h214 {
-    color: black;
+    color:black;
 }
