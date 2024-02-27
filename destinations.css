@@ -50,21 +50,22 @@ nav li {
 }
 
 .card {
-    width: 150px; 
-    height: 200px; 
-    margin: 10px;
+    width: 120px; /* Adjusted width */
+    height: 160px; /* Adjusted height */
+    margin: 5px; /* Adjusted margin */
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 8px; /* Adjusted border radius */
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 16px; 
-    padding: 10px; 
+    font-size: 14px; /* Adjusted font size */
+    padding: 8px; /* Adjusted padding */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 .card h2 {
     font-size: 14px; 
