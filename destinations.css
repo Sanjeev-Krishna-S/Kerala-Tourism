@@ -42,12 +42,12 @@ nav li {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Adjusted justify-content */
+    justify-content: space-around;
     align-items: flex-start;
     margin: 20px auto; /* Center the container horizontally */
-    padding-top: 100px;
+    padding-top: 50px; /* Adjusted padding */
     max-width: 1200px; /* Set a maximum width for the container */
-    height: 540px; /* Adjusted height for 14 cards (7 top, 7 bottom) */
+    min-height: 720px; /* Adjusted height for 14 cards (7 top, 7 bottom) */
 }
 
 @media (max-width: 768px) {
